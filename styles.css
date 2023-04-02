@@ -217,6 +217,46 @@ footer {
     .justify-right ul li:last-child {
         border-right: transparent;
     }
+    .profile-img {
+        width: 4vh;
+        height: 4vh;
+        padding: 3px;
+        margin: 5px -1px 3px 7px;
+    }
+    img {
+        width: 3vh;
+        height: 3vh;
+        border-radius: 50%;
+    }
+    .hello {
+        margin: 17px 8px 8px 5px;
+    }
+    .hello h1 {
+        font-size: 20px;
+        margin: 0 0 12px 0;
+    }
+    .hello h3 {
+        margin: 0;
+    }
+    .info-color {
+        width: 178px;
+        padding: 3px;
+        display: flex;
+    }
+    .info-circle {
+        padding: 2px;
+        width: 30px;
+        height: 30px;
+        font-size: 8px;
+        font-weight: 550;
+        border-radius: 50%;
+        text-align: center;
+        margin: 9px;
+    }
+    .info-text {
+        margin-top: 21px;
+        margin-left: -23px;
+    }
     .foot-text {
         padding: 1px;
         margin: 0;
