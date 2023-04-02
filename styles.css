@@ -222,29 +222,29 @@ footer {
     }
     .justify-right {
         font-size: 13px;
-        width: 220px;
+        width: 210px;
         text-align: left;
         position: relative;
-        right: 18vh;
+        right: 3vh;
         position: relative;
-        left: -20vh;
+        left: -4vh;
     }
     .justify-right ul {
         display: flex;
         font-weight: 600;
     }
     .justify-right ul li {
-        margin-right: -12px;
+        margin-right: -23px;
         list-style: none;
         border-right: 2px solid rgb(15, 30, 39);
-        padding: 0 2px 0 2px;
+        padding: 0 0 0 1px;
     }
     .justify-right ul li:last-child {
         border-right: transparent;
     }
     .profile-img {
-        width: 4vh;
-        height: 4vh;
+        width: 16px;
+        height: 16px;
         padding: 3px;
         margin: 5px -1px 3px 7px;
     }
@@ -254,7 +254,7 @@ footer {
         border-radius: 50%;
     }
     .hello {
-        margin: 10px 6px 6px 3px;
+        margin: 8px 2px 2px 0;
     }
     .hello h1 {
         font-size: 1px;
