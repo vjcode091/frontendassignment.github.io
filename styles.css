@@ -169,5 +169,52 @@ footer {
 
 .foot-text p {
     padding: 2px;
-    margin: 8px 0 6px 0;
+    margin: 4px 0 3px 0;
+}
+
+@media screen and (max-weight: 650px) {
+    .justify-left {
+        width: 100px;
+        font-size: 14px;
+        font-weight: 600;
+        display: flex;
+    }
+    .justify-left h2 {
+        margin: 0;
+    }
+    .circle-nav {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        margin: none;
+        background: rgba(116, 46, 13, 0.301);
+    }
+    .circle-nav img {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        margin: 0;
+    }
+    .justify-right {
+        font-size: 13px;
+        width: 270px;
+        text-align: left;
+        position: relative;
+        right: 18vh;
+        position: relative;
+        left: -37vh;
+    }
+    .justify-right ul {
+        display: flex;
+        font-weight: 600;
+    }
+    .justify-right ul li {
+        margin-right: -23px;
+        list-style: none;
+        border-right: 2px solid rgb(15, 30, 39);
+        padding: 0 2px 0 2px;
+    }
+    .justify-right ul li:last-child {
+        border-right: transparent;
+    }
 }
