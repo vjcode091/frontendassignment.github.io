@@ -1,0 +1,134 @@
+*::after::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(228, 241, 243, 0.78), rgba(244, 253, 252, 0.87));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.justify-left {
+    width: 160px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+}
+
+.justify-left h2 {
+    margin: 0;
+}
+
+.circle-nav {
+    width: 30px;
+    height: 31px;
+    border-radius: 50%;
+    margin: none;
+    background: rgba(116, 46, 13, 0.301);
+}
+
+.circle-nav img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.justify-right {
+    font-size: 18px;
+    width: 340px;
+    text-align: left;
+}
+
+.justify-right ul {
+    display: flex;
+    font-weight: 600;
+}
+
+.justify-right ul li {
+    margin-right: 20px;
+    list-style: none;
+    border-right: 2px solid rgb(15, 30, 39);
+    padding: 0 8px 0 8px;
+}
+
+.justify-right ul li:last-child {
+    border-right: transparent;
+}
+
+.justify-right ul li a {
+    text-decoration: none;
+    color: rgb(15, 30, 39);
+}
+
+
+/*---------------------------------- for index main--------- ------------- */
+
+main {
+    display: flex;
+}
+
+.profile-img {
+    width: 67vh;
+    height: 67vh;
+    padding: 23px;
+    margin: 12px 1px 18px 70px;
+}
+
+img {
+    width: 64vh;
+    height: 64vh;
+    border-radius: 50%;
+}
+
+.hello {
+    margin: 77px 20px 20px 12px;
+}
+
+.hello h1 {
+    font-size: 80px;
+    margin: 0 0 20px 0;
+}
+
+.hello h3 {
+    margin: 0;
+}
+
+.info-color {
+    width: 560px;
+    padding: 10px;
+    display: flex;
+}
+
+.info-circle {
+    padding: 9px;
+    width: 80px;
+    height: 80px;
+    font-size: 15px;
+    font-weight: 550;
+    border-radius: 50%;
+    text-align: center;
+    margin: 9px;
+}
+
+.info-text {
+    margin-top: 27px;
+}
+
+.yellow {
+    background: rgba(220, 235, 90, 0.795);
+}
+
+.red {
+    background: rgba(235, 87, 87, 0.795);
+}
+
+.blue {
+    background: rgba(103, 146, 226, 0.795);
+}
